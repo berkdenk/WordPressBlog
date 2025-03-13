@@ -1,0 +1,132 @@
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+header {
+    background: linear-gradient(135deg, #0073e6, #005bb5);
+    color: white;
+    padding: 20px;
+    font-size: 26px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.buttons {
+    margin-top: 10px;
+}
+
+
+.primary-button {
+    background: linear-gradient(135deg, #0073e6, #005bb5);
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+    margin-right: 10px;
+}
+
+.primary-button:hover {
+    background: linear-gradient(135deg, #005bb5, #003f80);
+    transform: scale(1.05);
+}
+
+
+.secondary-button {
+    background: white;
+    color: #0073e6;
+    padding: 12px;
+    border: 2px solid #0073e6;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.secondary-button:hover {
+    background: #0073e6;
+    color: white;
+    transform: scale(1.05);
+}
+
+
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+.blog-post {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: left;
+}
+
+.blog-post:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+.blog-post h3 {
+    margin: 0 0 10px;
+    font-size: 22px;
+    color: #0073e6;
+}
+
+.blog-post a {
+    text-decoration: none;
+    color: #0073e6;
+    font-weight: bold;
+}
+
+.blog-post a:hover {
+    text-decoration: underline;
+}
+
+
+.meta {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+
+footer {
+    background: linear-gradient(135deg, #0073e6, #005bb5);
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+}

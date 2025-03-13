@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Login</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="login.js"></script>
+</head>
+<body>
+    <header>
+        <h1><a href="blog.html" style="text-decoration: none; color: inherit;">🔙 Back to Blog</a></h1>
+    </header>
+
+    <main>
+        <form id="login-form">
+            <input type="email" id="email" placeholder="Email" required><br>
+            <input type="password" id="password" placeholder="Password" required><br>
+
+            <button type="submit" class="login-button">Sign In</button>
+
+            <p id="login-message"></p>
+        </form>
+
+        <button id="go-to-register" onclick="window.location.href='register.html'">Don't have an account? Register</button>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My Blog</p>
+    </footer>
+</body>
+</html>
